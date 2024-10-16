@@ -17,11 +17,13 @@ int main(int argc, char *argv[]) {
 	  {
 	    printf("High!\n");
 	  }
-	  else if (n < answer){
-		printf("Low!\n");
+	  else if (n < answer)
+	  {
+	    printf("Low!\n");
 	  }	
 	} while (n != answer);
 	
 	printf("Congratulation! Trials: %i\n", tri);
+	
 	return 0;
 }
