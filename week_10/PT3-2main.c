@@ -12,7 +12,7 @@ int main(void) {
 	{
 		if (a[i] != b[i])
 		{
-			printf("%d\n", i);
+			printf("index : %d\n", i);
 			flag_same = 0;	
 		}
 	}
